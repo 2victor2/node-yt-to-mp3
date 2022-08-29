@@ -2,7 +2,8 @@
   "name": "yt-to-mp3",
   "version": "1.0.0",
   "description": "Youtube videos to mp3 converter made with NodeJS to amplify knowledges on files manipulation with the tool.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/2victor2/node-yt-to-mp3/issues"
   },
-  "homepage": "https://github.com/2victor2/node-yt-to-mp3#readme"
+  "homepage": "https://github.com/2victor2/node-yt-to-mp3#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "ora": "^6.1.2",
+    "youtube-mp3-downloader": "^0.7.10"
+  }
 }
